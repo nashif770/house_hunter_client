@@ -7,6 +7,10 @@ import PrivateRoute from "./PrivateRoute";
 import Dashboard from "../0.Layout/Dashboard";
 import DashboardHome from "../Pages/Dashboard/DashboardHome";
 import HomeOwner from "../Pages/Dashboard/HomeOwner";
+import UserProfile from "../Pages/Dashboard/UserProfile";
+import ManageHouses from "../Pages/Dashboard/ManageHouses";
+import AddHouses from "../Pages/Dashboard/AddHouses";
+import ManageBookings from "../Pages/Dashboard/ManageBookings";
 
 export const router = createBrowserRouter([
   {
@@ -34,20 +38,20 @@ export const router = createBrowserRouter([
     // errorElement: <></>
     children: [
       {
-        path: "/dashboard/",
-        element: <DashboardHome></DashboardHome>,
+        path: "/dashboard",
+        element: <UserProfile></UserProfile>,
       },
       {
         path: "/dashboard/manageHouse",
-        element: <HomeOwner></HomeOwner>,
+        element: <ManageHouses></ManageHouses>,
       },
       {
         path: "/dashboard/addHouse",
-        element: <DashboardHome></DashboardHome>,
+        element: <AddHouses></AddHouses>,
       },
       {
-        path: "/dashboard/bookHouse",
-        element: <DashboardHome></DashboardHome>,
+        path: "/dashboard/manageBooking",
+        element: <ManageBookings></ManageBookings>,
       },
     ],
   },

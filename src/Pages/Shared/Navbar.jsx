@@ -50,7 +50,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to={"/"} className="btn btn-ghost text-xl">
-          Main Template
+          House Hunters
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

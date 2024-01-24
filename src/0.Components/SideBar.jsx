@@ -54,16 +54,6 @@ const SideBar = () => {
             <ul>
               <li>
                   <NavLink
-                  to="/dashboard/owner"
-                  className={({ isActive }) =>
-                    `flex items-center px-4 py-2 mt-5  transition-colors duration-300 transform  hover:bg-[#6b7cff]   hover:text-white ${
-                      isActive ? "bg-[#6b7cff] text-white" : "text-gray-600"
-                    }`
-                  }
-                >
-                  <span className="mx-4 font-medium">House Owner</span>
-                </NavLink>
-                <NavLink
                   to="/dashboard/manageHouse"
                   className={({ isActive }) =>
                     `flex items-center px-4 py-2 mt-5  transition-colors duration-300 transform  hover:bg-[#6b7cff]   hover:text-white ${
@@ -71,7 +61,17 @@ const SideBar = () => {
                     }`
                   }
                 >
-                  <span className="mx-4 font-medium">Manage Your Houses</span>
+                  <span className="mx-4 font-medium">Manage Houses</span>
+                </NavLink>
+                <NavLink
+                  to="/dashboard/manageBooking"
+                  className={({ isActive }) =>
+                    `flex items-center px-4 py-2 mt-5  transition-colors duration-300 transform  hover:bg-[#6b7cff]   hover:text-white ${
+                      isActive ? "bg-[#6b7cff] text-white" : "text-gray-600"
+                    }`
+                  }
+                >
+                  <span className="mx-4 font-medium">Manage Bookings</span>
                 </NavLink>
                 <NavLink
                   to="/dashboard/addHouse"
@@ -84,7 +84,7 @@ const SideBar = () => {
                   <span className="mx-4 font-medium">Add Houses</span>
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                   <NavLink
                   to="/dashboard/bookHouse"
                   className={({ isActive }) =>
@@ -95,7 +95,7 @@ const SideBar = () => {
                 >
                   <span className="mx-4 font-medium">Manage Bookings</span>
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>

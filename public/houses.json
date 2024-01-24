@@ -1,267 +1,67 @@
 [
-    {
-      "id": 1,
+  {
+      "name": "Modern House in Banani",
+      "address": "Banani, Dhaka",
       "city": "Dhaka",
-      "area": "Banani",
       "bedrooms": 4,
       "bathrooms": 3,
       "roomSize": "2000 sqft",
-      "availability": "Available Now",
+      "picture": "https://media.gettyimages.com/id/1326353127/photo/estate-agent-showround.jpg?s=2048x2048&w=gi&k=20&c=Z6FGS2D0eHH3EJpvWMyqKLWosK7pgkdyy84lnIMGT74=",
+      "availabilityDate": "Available Now",
       "rentPerMonth": 50000,
-      "mainImage": "https://example.com/house1/main-image.jpg",
-      "images": [
-        "https://example.com/house1/image1.jpg",
-        "https://example.com/house1/image2.jpg",
-        "https://example.com/house1/image3.jpg"
-      ],
-      "description": "This modern 4-bedroom house is located in the vibrant Banani area of Dhaka. It features spacious rooms, a well-equipped kitchen, and an open backyard. The house is conveniently situated near shops, schools, and entertainment venues.",
-      "amenities": [
-        "Air Conditioning",
-        "High-Speed Internet",
-        "Parking Space",
-        "Security System",
-        "Garden"
-      ],
-      "additionalFeatures": [
-        "Fully Furnished",
-        "Pet-Friendly",
-        "Closet/Storage Space",
-        "Balcony/Patio",
-        "Laundry Room"
-      ],
-      "floorPlan": "https://example.com/house1/floor-plan.jpg",
-      "videoTour": "https://example.com/house1/video-tour.mp4",
-      "contactDetails": {
-        "ownerName": "Mr. Ali Ahmed",
-        "ownerEmail": "ali.ahmed@example.com",
-        "ownerPhone": "+8801712345678"
-      },
-      "location": {
-        "latitude": 23.7941,
-        "longitude": 90.4155
-      },
-      "rating": 4.7,
-      "reviews": [
-        {
-          "user": "Farid",
-          "comment": "Really good house, I enjoyed my stay."
-        },
-        {
-          "user": "Nur",
-          "comment": "Very spacious and beautiful house, and all amenities are well provided."
-        }
-      ]
-    },
-    {
-        "id": 2,
-        "city": "Chittagong",
-        "area": "GEC Circle",
-        "bedrooms": 3,
-        "bathrooms": 2,
-        "roomSize": "1600 sqft",
-        "availability": "Coming Soon",
-        "rentPerMonth": 40000,
-        "mainImage": "https://example.com/house2/main-image.jpg",
-        "images": [
-          "https://example.com/house2/image1.jpg",
-          "https://example.com/house2/image2.jpg",
-          "https://example.com/house2/image3.jpg"
-        ],
-        "description": "This charming 3-bedroom house is situated near the GEC Circle area in Chittagong. It boasts a cozy atmosphere, well-appointed bedrooms, and a lovely backyard. The house will be available soon for those seeking a comfortable and convenient living space.",
-        "amenities": [
-          "Air Conditioning",
-          "High-Speed Internet",
-          "Parking Space",
-          "Security System",
-          "Balcony"
-        ],
-        "additionalFeatures": [
-          "Unfurnished",
-          "Family-Friendly",
-          "Closet/Storage Space",
-          "Green Space",
-          "24/7 Security"
-        ],
-        "floorPlan": "https://example.com/house2/floor-plan.jpg",
-        "videoTour": "https://example.com/house2/video-tour.mp4",
-        "contactDetails": {
-          "ownerName": "Mrs. Farhana Rahman",
-          "ownerEmail": "farhana.rahman@example.com",
-          "ownerPhone": "+8801812345678"
-        },
-        "location": {
-          "latitude": 22.3475,
-          "longitude": 91.8123
-        },
-        "rating": 4.5,
-        "reviews": [
-          {
-            "user": "Samir",
-            "comment": "Looking forward to the availability. Love the location!"
-          },
-          {
-            "user": "Sara",
-            "comment": "Cozy and inviting atmosphere. Can't wait to visit!"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "city": "Sylhet",
-        "area": "Lamabazar",
-        "bedrooms": 2,
-        "bathrooms": 1,
-        "roomSize": "1200 sqft",
-        "availability": "Available Now",
-        "rentPerMonth": 25000,
-        "mainImage": "https://example.com/house3/main-image.jpg",
-        "images": [
-          "https://example.com/house3/image1.jpg",
-          "https://example.com/house3/image2.jpg",
-          "https://example.com/house3/image3.jpg"
-        ],
-        "description": "Discover this delightful 2-bedroom house in the heart of Lamabazar, Sylhet. With a cozy interior, well-maintained bedrooms, and a small garden, this house is available now for those seeking a tranquil living experience.",
-        "amenities": [
-          "Air Conditioning",
-          "High-Speed Internet",
-          "Parking Space",
-          "Garden",
-          "Security System"
-        ],
-        "additionalFeatures": [
-          "Semi-Furnished",
-          "Pet-Friendly",
-          "Closet/Storage Space",
-          "Front Porch",
-          "Laundry Hookups"
-        ],
-        "floorPlan": "https://example.com/house3/floor-plan.jpg",
-        "videoTour": "https://example.com/house3/video-tour.mp4",
-        "contactDetails": {
-          "ownerName": "Ms. Nusrat Islam",
-          "ownerEmail": "nusrat.islam@example.com",
-          "ownerPhone": "+8801912345678"
-        },
-        "location": {
-          "latitude": 24.8978,
-          "longitude": 91.8713
-        },
-        "rating": 4.9,
-        "reviews": [
-          {
-            "user": "Rahim",
-            "comment": "Beautiful house and convenient location. Highly recommended!"
-          },
-          {
-            "user": "Sima",
-            "comment": "Lovely garden space. Ideal for a small family."
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "city": "Rajshahi",
-        "area": "Boalia",
-        "bedrooms": 3,
-        "bathrooms": 2,
-        "roomSize": "1500 sqft",
-        "availability": "Coming Soon",
-        "rentPerMonth": 30000,
-        "mainImage": "https://example.com/house4/main-image.jpg",
-        "images": [
-          "https://example.com/house4/image1.jpg",
-          "https://example.com/house4/image2.jpg",
-          "https://example.com/house4/image3.jpg"
-        ],
-        "description": "Explore this upcoming 3-bedroom house in Boalia, Rajshahi. With modern design elements, spacious bedrooms, and a well-lit atmosphere, this house will be available soon for those seeking a stylish and comfortable living space.",
-        "amenities": [
-          "Air Conditioning",
-          "High-Speed Internet",
-          "Parking Space",
-          "Security System",
-          "Balcony"
-        ],
-        "additionalFeatures": [
-          "Unfurnished",
-          "Family-Friendly",
-          "Closet/Storage Space",
-          "Roof Terrace",
-          "Laundry Room"
-        ],
-        "floorPlan": "https://example.com/house4/floor-plan.jpg",
-        "videoTour": "https://example.com/house4/video-tour.mp4",
-        "contactDetails": {
-          "ownerName": "Mr. Rahman Chowdhury",
-          "ownerEmail": "rahman.chowdhury@example.com",
-          "ownerPhone": "+8801812345678"
-        },
-        "location": {
-          "latitude": 24.3745,
-          "longitude": 88.6042
-        },
-        "rating": 4.6,
-        "reviews": [
-          {
-            "user": "Aisha",
-            "comment": "Excited for this one! The design looks amazing."
-          },
-          {
-            "user": "Kamal",
-            "comment": "Great location and spacious rooms. Can't wait to move in!"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "city": "Khulna",
-        "area": "Sonadanga",
-        "bedrooms": 2,
-        "bathrooms": 1,
-        "roomSize": "1000 sqft",
-        "availability": "Available Now",
-        "rentPerMonth": 20000,
-        "mainImage": "https://example.com/house5/main-image.jpg",
-        "images": [
-          "https://example.com/house5/image1.jpg",
-          "https://example.com/house5/image2.jpg",
-          "https://example.com/house5/image3.jpg"
-        ],
-        "description": "Step into this cozy 2-bedroom house located in the Sonadanga area of Khulna. With a warm and inviting interior, well-designed bedrooms, and proximity to key amenities, this house is available now for a delightful living experience.",
-        "amenities": [
-          "Air Conditioning",
-          "High-Speed Internet",
-          "Parking Space",
-          "Security System",
-          "Small Garden"
-        ],
-        "additionalFeatures": [
-          "Semi-Furnished",
-          "Pet-Friendly",
-          "Closet/Storage Space",
-          "Front Porch",
-          "Laundry Hookups"
-        ],
-        "floorPlan": "https://example.com/house5/floor-plan.jpg",
-        "videoTour": "https://example.com/house5/video-tour.mp4",
-        "contactDetails": {
-          "ownerName": "Mrs. Fatima Khan",
-          "ownerEmail": "fatima.khan@example.com",
-          "ownerPhone": "+8801912345678"
-        },
-        "location": {
-          "latitude": 22.8153,
-          "longitude": 89.5501
-        },
-        "rating": 4.8,
-        "reviews": [
-          {
-            "user": "Imran",
-            "comment": "Lovely house with a beautiful garden. Highly recommended!"
-          },
-          {
-            "user": "Sara",
-            "comment": "Perfect for a small family. The location is convenient."
-          }
-        ]
-      }
-  ]
+      "phoneNumber": "+8801712345678",
+      "description": "This modern 4-bedroom house is located in the vibrant Banani area of Dhaka. It features spacious rooms, a well-equipped kitchen, and an open backyard. The house is conveniently situated near shops, schools, and entertainment venues."
+  },
+  {
+      "name": "Charming House near GEC Circle",
+      "address": "GEC Circle, Chittagong",
+      "city": "Chittagong",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "roomSize": "1600 sqft",
+      "picture": "https://media.gettyimages.com/id/1326353127/photo/estate-agent-showround.jpg?s=2048x2048&w=gi&k=20&c=Z6FGS2D0eHH3EJpvWMyqKLWosK7pgkdyy84lnIMGT74=",
+      "availabilityDate": "Coming Soon",
+      "rentPerMonth": 40000,
+      "phoneNumber": "+8801812345678",
+      "description": "This charming 3-bedroom house is situated near the GEC Circle area in Chittagong. It boasts a cozy atmosphere, well-appointed bedrooms, and a lovely backyard. The house will be available soon for those seeking a comfortable and convenient living space."
+  },
+  {
+      "name": "Delightful House in Lamabazar",
+      "address": "Lamabazar, Sylhet",
+      "city": "Sylhet",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "roomSize": "1200 sqft",
+      "picture": "https://media.gettyimages.com/id/1326353127/photo/estate-agent-showround.jpg?s=2048x2048&w=gi&k=20&c=Z6FGS2D0eHH3EJpvWMyqKLWosK7pgkdyy84lnIMGT74=",
+      "availabilityDate": "Available Now",
+      "rentPerMonth": 25000,
+      "phoneNumber": "+8801912345678",
+      "description": "Discover this delightful 2-bedroom house in the heart of Lamabazar, Sylhet. With a cozy interior, well-maintained bedrooms, and a small garden, this house is available now for those seeking a tranquil living experience."
+  },
+  {
+      "name": "Upcoming House in Boalia",
+      "address": "Boalia, Rajshahi",
+      "city": "Rajshahi",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "roomSize": "1500 sqft",
+      "picture": "https://media.gettyimages.com/id/1326353127/photo/estate-agent-showround.jpg?s=2048x2048&w=gi&k=20&c=Z6FGS2D0eHH3EJpvWMyqKLWosK7pgkdyy84lnIMGT74=",
+      "availabilityDate": "Coming Soon",
+      "rentPerMonth": 30000,
+      "phoneNumber": "+8801812345678",
+      "description": "Explore this upcoming 3-bedroom house in Boalia, Rajshahi. With modern design elements, spacious bedrooms, and a well-lit atmosphere, this house will be available soon for those seeking a stylish and comfortable living space."
+  },
+  {
+      "name": "Cozy House in Sonadanga",
+      "address": "Sonadanga, Khulna",
+      "city": "Khulna",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "roomSize": "1000 sqft",
+      "picture": "https://media.gettyimages.com/id/1326353127/photo/estate-agent-showround.jpg?s=2048x2048&w=gi&k=20&c=Z6FGS2D0eHH3EJpvWMyqKLWosK7pgkdyy84lnIMGT74=",
+      "availabilityDate": "Available Now",
+      "rentPerMonth": 20000,
+      "phoneNumber": "+8801912345678",
+      "description": "Step into this cozy 2-bedroom house located in the Sonadanga area of Khulna. With a warm and inviting interior, well-designed bedrooms, and proximity to key amenities, this house is available now for a delightful living experience."
+  }
+]

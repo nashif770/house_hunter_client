@@ -3,29 +3,13 @@ import PropertyCard from "../../../../0.Components/PropertyCard";
 import SearchBar from "../../../../0.Components/SearchBar";
 
 const AllProperties = () => {
-    const [houses, setHouses] = useState([]);
-    const [searchedHouse, setSearchedHouse] = useState([]);
-    const [currentPage, setCurrentPage] = useState(1);
+  const [houses, setHouses] = useState([]);
 
   useEffect(() => {
     fetch("houses.json")
       .then((res) => res.json())
       .then((data) => setHouses(data));
   }, []);
-
-  const fetchHouses = async () => {
-    try {
-      const response = await fetch(`houses.json?page=${currentPage}`);
-      const data = await response.json();
-      setHouses((prevHouses) => [...prevHouses, ...data]);
-      setSearchedHouse((prevSearchedHouse) => [...prevSearchedHouse, ...data]);
-      setCurrentPage((prevPage) => prevPage + 1);
-    } catch (error) {
-      console.error("Error fetching houses:", error);
-    }
-  };
-
-  console.log("houses", houses);
 
   const getSearchData = (data) => {
     // Call the onSearch prop with the current city value
@@ -39,7 +23,7 @@ const AllProperties = () => {
       return true;
     });
     console.log("Filtered Houses:", filteredHouses);
-    setSearchedHouse(filteredHouses)
+    setHouses(filteredHouses);
   };
 
   return (
@@ -49,11 +33,14 @@ const AllProperties = () => {
         <SearchBar getSearchData={getSearchData}></SearchBar>
       </div>
       <div className="flex flex-wrap gap-4 justify-center">
-        {
-            searchedHouse?.map((houses)=>(
-                <PropertyCard key={houses.id} houseInfo={houses}></PropertyCard>
-            ))
-        }
+        {houses?.map((houses) => (
+          <PropertyCard key={houses.id} houseInfo={houses}></PropertyCard>
+        ))}
+      </div>
+      <div className="text-center">
+        <button className="btn btn-primary border-none bg-blue-500 text-white px-4 py-2 rounded-md">
+          View More
+        </button>
       </div>
     </div>
   );
