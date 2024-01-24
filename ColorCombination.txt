@@ -1,0 +1,16 @@
+Color Combination:
+Primary Color: #3498db (Light Blue)
+
+Represents trust, professionalism, and tranquility.
+Secondary Color: #e74c3c (Red)
+
+Adds energy and attention-grabbing elements.
+Accent Color: #2ecc71 (Green)
+
+Provides a sense of balance and positivity.
+Neutral Background: #ecf0f1 (Light Gray)
+
+Creates a clean and modern background.
+Text Color: #333333 (Dark Gray)
+
+Ensures readability and a professional look.
